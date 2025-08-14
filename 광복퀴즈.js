@@ -11,10 +11,10 @@ const problems = [
   { img: "10-문제 10.png", answer: 1 },
   { img: "11-문제 11.png", answer: 3 },
   { img: "12-문제 12.png", answer: 1 },
-  { img: "13-문제 13.png", answer: 1 },
+  { img: "13-문제 13.png", answer: 2 }, //changed to 2 from 1
   { img: "14-문제 14.png", answer: 1 },
-  { img: "15-문제 15.png", answer: 1 },
-  { img: "16-문제 16.png", answer: 1 },
+  { img: "15-문제 15.png", answer: 4 }, //changed to 4 from 1
+  { img: "16-문제 16.png", answer: 3 }, //changed to 3 from 1
   { img: "17-문제 17.png", answer: 1 },
   { img: "18-문제 18.png", answer: 1 },
   { img: "19-문제 19.png", answer: 2 },
@@ -78,3 +78,4 @@ function showResult() {
 
 
 window.onload = showProblem;
+
